@@ -110,3 +110,24 @@ h3 {
 	width: 140px;
 	text-align: center;
 }
+
+/* QUOTE SECTION */
+
+.quote {
+	background-color: #e5e7eb;
+}
+
+.quote div{
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1f2937;
+	width: 760px;
+	margin: auto;
+}
+
+figcaption {
+	text-align: right;
+	font-weight: bold;
+	margin-bottom: 36px;
+}
