@@ -6,6 +6,10 @@ body {
 
 }
 
+header, main, footer {
+	width: 1200px;
+}
+
 /* HEADER */
 
 header {
@@ -13,7 +17,6 @@ header {
 	color: white;
 	display: flex;
 	flex-direction: column;
-	width: 1200px;
 }
 
 .header {
@@ -77,4 +80,33 @@ button {
 	border-radius: 6px;
 	color: #f9faf8;
 	font-size: 18px;
+}
+
+/* INFORMATION SECTION */
+
+.container {
+	display: flex;
+	gap: 36px;
+	justify-content: center;
+	margin-bottom: 36px;
+}
+
+h3 {
+	font-size: 36px;
+	text-align: center;
+	color: #1f2937;
+	font-weight: 900;
+}
+
+.blank-img {
+	border: 5px solid #3882f6;
+	border-radius: 20px;
+	width: 130px;
+	height: 130px;
+	margin: auto;
+}
+
+.box {
+	width: 140px;
+	text-align: center;
 }
